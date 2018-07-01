@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "screenkeeper", "screenkeeper\screenkeeper.csproj", "{D9469A5E-C834-42C2-9521-925BEB1E119D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9469A5E-C834-42C2-9521-925BEB1E119D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9469A5E-C834-42C2-9521-925BEB1E119D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9469A5E-C834-42C2-9521-925BEB1E119D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9469A5E-C834-42C2-9521-925BEB1E119D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {873DFA1B-4AFC-4EFE-A00D-4A752FD28A91}
+	EndGlobalSection
+EndGlobal
