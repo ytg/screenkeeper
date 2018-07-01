@@ -6,7 +6,17 @@ namespace screenkeeper
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Keeping the screen alive...");
+            Console.WriteLine("Press any key to stop");
+            SleepPreventer.PreventSleep();
+            try
+            {
+                Console.ReadKey();
+            }
+            finally
+            {
+                SleepPreventer.EnableSleep();
+            }
         }
     }
 }
